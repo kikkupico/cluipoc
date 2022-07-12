@@ -18,13 +18,13 @@ export default function Index() {
     <div>
       <h1>Changelog</h1>
       <ol>
-        {data.map((e) => (
-          <li>
+        {data.map((e, i) => (
+          <li key={i}>
             <a href={e.pr_link}>PR</a>
             <div>{e.changelog}</div>
             <ul>
-              {e.tags.map((t) => (
-                <li>{t}</li>
+              {e.tags.map((t, j) => (
+                <li key={j}>{t}</li>
               ))}
             </ul>
           </li>
