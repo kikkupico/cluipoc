@@ -1,0 +1,14 @@
+[
+  {
+    "pr_link": "https://github.com/hasura/lux/pr/7",
+    "tags": ["ce", "cloud"],
+    "changelog": "sfdsfsfdsfsdfsdfds",
+    "created_at": 1657600709455
+  },
+  {
+    "pr_link": "https://github.com/hasura/lux/pr/17",
+    "tags": ["ce"],
+    "changelog": "sdfsdfdsfds",
+    "created_at": 1657600709255
+  }
+]
